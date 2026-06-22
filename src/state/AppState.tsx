@@ -19,7 +19,7 @@ type AppState = {
 
 const Ctx = createContext<AppState | null>(null);
 
-const STORAGE = "freelancecoach-state-v1";
+const STORAGE = "Lanicfy-state-v1";
 
 export const AppProvider = ({ children }: { children: ReactNode }) => {
   const [coins, setCoinsState] = useState<number>(500);
@@ -35,7 +35,7 @@ export const AppProvider = ({ children }: { children: ReactNode }) => {
         if (typeof parsed.authed === "boolean") setAuthed(parsed.authed);
         if (Array.isArray(parsed.history)) setHistory(parsed.history);
       }
-    } catch {}
+    } catch { }
   }, []);
 
   useEffect(() => {

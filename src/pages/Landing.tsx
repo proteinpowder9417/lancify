@@ -26,7 +26,7 @@ const features = [
 
 export default function Landing() {
   return (
-    <div className="min-h-screen bg-background bg-hero">
+    <div className="min-h-screen bg-[#F5F7FA]">
       <Navbar variant="public" />
 
       <main className="container">
@@ -36,8 +36,8 @@ export default function Landing() {
             Built for new freelancers
           </span>
           <h1 className="mt-6 text-4xl font-bold leading-tight tracking-tight text-foreground sm:text-6xl">
-            Your AI coach for{" "}
-            <span className="bg-gradient-primary bg-clip-text text-transparent">freelancing success</span>
+            Your coach for{" "}
+            <span className="text-[#2563eb]">freelancing success</span>
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-base text-muted-foreground sm:text-lg">
             Get client advice, generate invoices, and grow your freelance business — all in one place.
@@ -84,7 +84,7 @@ export default function Landing() {
       </main>
 
       <footer className="border-t border-border/60 py-8 text-center text-sm text-muted-foreground">
-        © {new Date().getFullYear()} FreelanceCoach — calm tools for confident freelancers.
+        © {new Date().getFullYear()} Lancify — calm tools for confident freelancers.
       </footer>
     </div>
   );

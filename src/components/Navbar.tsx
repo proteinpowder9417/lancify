@@ -16,13 +16,13 @@ export const Navbar = ({ variant = "public" }: Props) => {
   };
 
   return (
-    <header className="sticky top-0 z-40 w-full border-b border-border/60 bg-background/80 backdrop-blur">
+    <header className="sticky top-0 z-40 w-full border-b border-slate-200 bg-[#F5F7FA]">
       <div className="container flex h-16 items-center justify-between">
         <Link to={authed ? "/dashboard" : "/"} className="flex items-center gap-2">
           <span className="grid h-8 w-8 place-items-center rounded-xl bg-gradient-primary text-primary-foreground shadow-glow">
             <Sparkles className="h-4 w-4" />
           </span>
-          <span className="text-base font-semibold tracking-tight">FreelanceCoach</span>
+          <span className="text-base font-semibold tracking-tight">Lanicfy</span>
         </Link>
 
         {variant === "public" ? (

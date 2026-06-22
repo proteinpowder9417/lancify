@@ -52,7 +52,7 @@ export default function SignIn() {
           </form>
 
           <p className="mt-5 text-center text-sm text-muted-foreground">
-            New to FreelanceCoach?{" "}
+            New to Lancify?{" "}
             <Link to="/signup" className="font-medium text-primary hover:underline">Create an account</Link>
           </p>
         </div>
